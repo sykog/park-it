@@ -1,0 +1,18 @@
+/* Main Styles */
+
+body {
+    font-size: 18pt;
+}
+
+/* Nav Bar Styles */
+
+#navbar {
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 20pt;
+    text-align: center;
+    position: fixed; /* to top of screen*/
+    top: 0px;
+    left: 0px;
+    z-index: 10; /* scrolling happens beneath nav-bar*/
+}
