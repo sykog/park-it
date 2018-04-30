@@ -1,0 +1,35 @@
+/* Main Styles */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* Nav Styles */
+
+div#navbar {
+    background-color: #2196f3;
+    color: white;
+    box-shadow: 0px 3px 3px darkgray;
+}
+
+/* Container Styles */
+
+div#instructions, div#map, div#directions {
+    box-shadow: 3px 3px 3px darkgray;
+    border: 1px solid black;
+}
+
+/* Button Styles */
+
+button {
+    background-color: #2196f3;
+    color: white;
+}
+
+button#park, button#retrieve {
+    border: 1px solid white;
+}
+
+button#gotIt {
+    border: 1px solid black;
+}
