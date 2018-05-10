@@ -35,13 +35,13 @@ function onDeviceReady() {
     node.setAttribute("type", "text/css");
 
     if (cordova.platformid == "ios") {
-        node.setAttribute("href", "styles/park-it-ios.css");
+        node.setAttribute("href", "css/park-it-ios.css");
 
         // prevent status bar from overlaying web view
         window.StatusBar.overlaysWebView(false);
         window.StatusBar.styleDefault();
     } else {
-        node.setAttribute("href", "styles/park-it-android.css");
+        node.setAttribute("href", "css/park-it-android.css");
 
         // prevent status bar from overlaying web view
         window.StatusBar.backgroundColorByHexString("#1565C0");
